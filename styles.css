@@ -298,6 +298,7 @@ a {
   border-radius: 5px;
 }
 
+
 /*----------------------------- Offers ------------------------*/
 .offers-txt {
   font-family: Calibri,Arial,sans-serif;
@@ -399,7 +400,6 @@ q {
   font-weight: bold;
   text-align: center;
 }
-
 
 
 
@@ -539,6 +539,12 @@ q {
 }
 
 /*--------------------------------- Contact ---------------------------------*/
+#contact-info .fa {
+  padding: 10px;
+  color: white!important;
+  font-weight: bold;
+}
+
 .follow {
   background-color: #c59d5f;
   border-radius: 10px;
@@ -553,11 +559,6 @@ q {
   color: white;
 }
 
-.fa {
-  padding: 10px;
-  color: white!important;
-  font-weight: bold;
-}
 
 ::placeholder {
   color: #000;
@@ -686,17 +687,13 @@ input[type=text], select, textarea {
 }
 
 .developed {
-  color: white;
+  color: #CFAB6F;
 }
 
 
 
 /*-------------------------------- Responsive -------------------------------*/
 @media screen and (max-width: 999px) {
-  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11{
-    background-attachment:scroll;
-  }
-
   .column-one {
     width: 100%!important;
   }
@@ -715,6 +712,114 @@ input[type=text], select, textarea {
 
   .column-three-contact {
     width: 100%!important;
+  }
+
+  .column-gallery {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 499px) {
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
+
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+
+  h6 {
+    font-size: 10px;
+  }
+
+  p {
+    line-height: 20px;
+    font-size: 10px;
+  }
+
+  p.open-times {
+    line-height: 20px;
+    font-size: 10px;
+  }
+
+  p.center {
+    text-align: center;
+  }
+
+  b {
+    color: #c59d5f;
+  }
+
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11{
+    background-attachment:scroll;
+  }
+
+  .section-light {
+    background-color: white;
+    color:#666;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .topnav a {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+  .column-img {
+      height: 200px;
+  }
+
+  .offers-txt {
+    font-size: 10px;
+  }
+
+  q {
+    font-size: 10px;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+
+  .socials a {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 15px;
+  }
+
+  .column-two-footer {
+    padding-right: 50px;
+  }
+
+  .follow-txt {
+    font-size: 10px;
+  }
+
+  ::placeholder{
+    font-size: 10px;
   }
 
   /*.topnav a:not(:first-child) {display: none;}
@@ -740,12 +845,6 @@ input[type=text], select, textarea {
   .left {
     float:none!important;
   }*/
-
-  .column-gallery {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
 }
 
 
